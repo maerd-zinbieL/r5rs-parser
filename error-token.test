@@ -1,0 +1,24 @@
+plt-r5rs test-token-types.scm < error1-tokens.err > error1-tokens.out
+diff error1-tokens.expect error1-tokens.out
+
+plt-r5rs test-token-types.scm < error2-tokens.err > error2-tokens.out
+diff error2-tokens.expect error2-tokens.out
+
+plt-r5rs test-token-types.scm < error3-tokens.err > error3-tokens.out
+diff error3-tokens.expect error3-tokens.out
+
+plt-r5rs test-token-types.scm < error4-tokens.err > error4-tokens.out
+diff error4-tokens.expect error4-tokens.out
+
+plt-r5rs test-token-types.scm < error5-tokens.err > error5-tokens.out
+diff error5-tokens.expect error5-tokens.out
+
+plt-r5rs test-token-types.scm < error6-tokens.err > error6-tokens.out
+diff error6-tokens.expect error6-tokens.out
+
+
+
+
+
+
+
